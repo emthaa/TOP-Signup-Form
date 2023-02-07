@@ -17,9 +17,31 @@
             </div>
         </div>
         <div class="signup">
+            <div class="text">
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. A erat nam at lectus urna duis convallis convallis tellus. </p>
             <p>Sign up <em>now</em> to get started.</p>
             <p id="special">You <em>know</em> you want to.</p>
+        </div>
+            <div class="fform">
+            <form action="#" method="get">
+                <div class="aform">
+                <label for = "fname">FIRST NAME</label><br>
+                <input type= "text" id ='fname' name = 'fname' required>
+                <label for = "lname">LAST NAME</label><br>
+                <input type="text" id ='lname' name = 'lname' required> 
+                <label for = 'mail'>EMAIL</label><br>
+                <input type="email" id = 'mail' name="mail" required>
+                <label for = 'pnumber'>PHONE NUMBER</label><br>
+                <input type="tel" id ='pnumber' name="pnumber" minlength="12" maxlength="12" size="10" placeholder="123-456-7890" required pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}">
+                <label for = 'password'>PASSWORD</label><br>
+                <input type="password" name="password" minlength="8" required>
+                <label for = 'cpassword'>CONFIRM PASSWORD</label><br>
+                <input type="password" name="cpassword" minlength="8" required>
+            </div>
+                
+            </div>
+            <input type="submit" name="submit" id = "submit"value="Create Account">
+            </form> 
         </div>
     </div>
 </body>
