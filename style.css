@@ -3,7 +3,7 @@
     background-position: center;
     background-size: auto;
     background-repeat: no-repeat;
-    width: 30vw;
+    width: 40vw;
 }
 
 .logo{
@@ -52,7 +52,7 @@
     padding-top: 10vh;
     padding-left: 0px;
     font-size: 3vh;
-    width: 70vw;
+    width: 60vw;
     display: flex;
     background-color: rgb(0, 0, 0);
     flex-direction: column;
@@ -61,17 +61,13 @@
 #special{
     padding-top: 5vh;
     font-weight: bold;
+    padding-bottom: 6vh;
 }
 
 p,em{
     font-weight: bold;
 }
 
-label,input{
-    height: 50px;
-    width: 200px;
-    font-size: 30px;
-}
 
 #submit{
     width: 250px;
@@ -81,13 +77,17 @@ label,input{
 .fform{
 
     height: 45vh;
-    background-color: rgb(40, 37, 37);
-    
+    background-color: rgb(0, 0, 0);
+
+    padding-left: 40px;
 }
 .aform{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+
+    width: 66vw;
+    height: 40vh;
 }
 
 
@@ -96,3 +96,68 @@ label,input{
     padding-left: 40px;
 }
 
+
+.row{
+    display: flex;
+    flex-direction: row;
+    gap: 2vw;
+}
+
+input{
+    height: 20px;
+
+}
+
+
+.box{
+    width: 25vw;
+    background-color: black;
+    border: 1px solid rgb(93, 90, 90);
+    color: rgb(93, 90, 90);
+}
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover, 
+input:-webkit-autofill:focus, 
+input:-webkit-autofill:active{
+    -webkit-box-shadow: 0 0 0 30px rgb(0, 0, 0) inset !important;
+    -webkit-text-fill-color: rgb(93, 90, 90);
+}
+
+input:focus{
+    outline: none !important;
+    background-color: black;
+    border-color: rgba(215, 23, 141, 0.802);
+    color: rgb(93, 90, 90);
+}
+
+
+
+
+#ldt{
+    padding-bottom: 2.5vh;
+}
+
+
+label{
+    color: rgb(67, 65, 65);
+    font-size: 15px;
+}
+
+
+#submit{
+    margin-left: 40px;
+    width: 15vw;
+    height: 7.5vh;
+    background-color: black;
+    border: 3px solid rgb(215, 23, 141);
+    color: rgb(215, 23, 141);
+    font-weight: bolder;
+    font-size: 3vh;
+    border-radius: 15px;
+}
+
+#submit:hover{
+    background-color: rgb(215, 23, 141);
+    color:black
+}
